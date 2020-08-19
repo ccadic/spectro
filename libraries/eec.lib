@@ -1,0 +1,61 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# NXP Semiconductors PSMN4R3-30PL,127
+#
+DEF PSMN4R3-30PL,127 Q 0 40 Y Y 1 L N
+F0 "Q" 0 300 50 H V L CNN 
+F1 "PSMN4R3-30PL,127" 0 400 50 H V L CNN 
+F2 "NXP_Semiconductors-PSMN4R3-30PL,127-*" 0 500 50 H I L CNN 
+F3 "http://www.nxp.com/documents/data_sheet/PSMN4R3-30PL.pdf" 0 600 50 H I L CNN 
+F4 "N" 0 700 50 H I L CNN "Channel Type"
+F5 "2400" 0 800 50 H I L CNN "Ciss typ pF"
+F6 "3-lead TO-220AB" 0 900 50 H I L CNN "Code  JEDEC"
+F7 "SC-46" 0 1000 50 H I L CNN "Code  JEITA"
+F8 "Manufacturer URL" 0 1100 50 H I L CNN "Component Link 1 Description"
+F9 "http://www.nxp.com/" 0 1200 50 H I L CNN "Component Link 1 URL"
+F10 "Package Specification" 0 1300 50 H I L CNN "Component Link 3 Description"
+F11 "http://www.nxp.com/documents/outline_drawing/sot078_po.pdf" 0 1400 50 H I L CNN "Component Link 3 URL"
+F12 "500" 0 1500 50 H I L CNN "Coss typ pF"
+F13 "Rev. 01" 0 1600 50 H I L CNN "Datasheet Version"
+F14 "100" 0 1700 50 H I L CNN "ID max A"
+F15 "Through Hole" 0 1800 50 H I L CNN "Mounting Technology"
+F16 "3-Pin Flange Mount, Vertical Straight Lead, Body 10 x 4.4 mm, Pitch 2.54 mm" 0 1900 50 H I L CNN "Package Description"
+F17 "08-06-13, 06/2008" 0 2000 50 H I L CNN "Package Version"
+F18 "Tube" 0 2100 50 H I L CNN "Packing"
+F19 "30" 0 2200 50 H I L CNN "Qr typ nC"
+F20 "30" 0 2300 50 H I L CNN "VDS max V"
+F21 "1.7" 0 2400 50 H I L CNN "VGSth typ V"
+F22 "Trans" 0 2500 50 H I L CNN "category"
+F23 "833194" 0 2600 50 H I L CNN "ciiva ids"
+F24 "604c8913d24a43b5" 0 2700 50 H I L CNN "library id"
+F25 "NXP Semiconductors" 0 2800 50 H I L CNN "manufacturer"
+F26 "SOT78" 0 2900 50 H I L CNN "package"
+F27 "1413521165" 0 3000 50 H I L CNN "release date"
+F28 "F033F694-72F2-4364-81FA-23C4442BA9FE" 0 3100 50 H I L CNN "vault revision"
+F29 "yes" 0 3200 50 H I L CNN "imported"
+DRAW
+X G 1 0 0 100 R 40 0 1 1 P 
+X D 2 300 200 100 D 40 0 1 1 P 
+X S 3 300 -200 100 U 40 0 1 1 P 
+P 2 1 1 0 300 70 200 70 N
+P 2 1 1 0 300 0 200 0 N
+P 2 1 1 0 300 -70 200 -70 N
+P 2 1 1 0 300 0 300 -100 N
+P 2 1 1 0 180 90 180 -90 N
+P 2 1 1 0 200 90 200 50 N
+P 2 1 1 0 200 -20 200 20 N
+P 2 1 1 0 200 -90 200 -50 N
+P 2 1 1 0 300 70 300 100 N
+P 4 1 1 0 370 -30 430 -30 400 20 370 -30 N
+P 2 1 1 0 370 20 430 20 N
+P 4 1 1 0 260 -20 260 20 200 0 260 -20 N
+P 2 1 1 0 100 0 180 0 N
+P 2 1 1 0 400 -100 400 -30 N
+P 2 1 1 0 300 -100 400 -100 N
+P 2 1 1 0 400 100 400 20 N
+P 2 1 1 0 300 100 400 100 N
+ENDDRAW
+ENDDEF
+#
+# End Library
